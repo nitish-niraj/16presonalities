@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>16 Personality Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Discover Your Personality Type</h1>
+        
+        <div id="progress-bar">
+            <div id="progress"></div>
+        </div>
+
+        <div id="question-container"></div>
+
+        <div id="navigation">
+            <button id="prev-btn" style="display: none;">Previous</button>
+            <button id="next-btn">Next</button>
+            <button id="submit-btn" style="display: none;">Submit</button>
+        </div>
+
+        <div id="result-container" style="display: none;">
+            <h2>Your Personality Type:</h2>
+            <p id="personality-result"></p>
+            <p id="personality-description"></p>
+            <h3>Your Detailed Answers:</h3>
+            <div id="detailed-answers"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
